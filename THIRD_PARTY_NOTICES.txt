@@ -1,0 +1,25 @@
+Fairy-Stockfish browser engine 1.0.0
+
+Fairy-Stockfish / Stockfish: GNU GPL version 3 or later.
+Upstream source: https://github.com/fairy-stockfish/Fairy-Stockfish
+Revision: 9f778da667f6e07dae1e85d3e2ea204fc6dee94d
+Copyright and contributors: upstream/AUTHORS and the individual source headers.
+License: LICENSE (also upstream/Copying.txt).
+
+Browser adapter and build changes: Copyright (C) 2026 Andkon.
+Licensed under GNU GPL version 3 or later. Modified 2026-10-04.
+See README.md for the scope of the scheduling, bridge and UCI changes.
+This program comes with no warranty. You may copy, modify and redistribute it
+under the GNU GPL version 3 or later; see LICENSE for the full terms.
+
+Compiled with Emscripten 3.1.64. Bundled runtime/library notices:
+- Emscripten JavaScript runtime: MIT / University of Illinois NCSA.
+  notices/Emscripten-LICENSE.txt and notices/Emscripten-AUTHORS.txt.
+- musl libc: MIT and component notices, notices/musl-COPYRIGHT.txt.
+- libc++, libc++abi, libunwind, compiler-rt: Apache 2.0 with LLVM exceptions
+  and retained component terms. See their files under notices/.
+These dependencies retain their own licenses; the combined engine is GPL.
+
+No NNUE network file, downloaded chess models, game artwork, fonts, user
+interface, game referee or multiplayer server is part of this engine package.
+No source or credentials from the Andkon site are required to rebuild it.
